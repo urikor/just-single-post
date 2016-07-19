@@ -1,0 +1,61 @@
+.widget_jsp_widget .info {
+    display: block;
+    overflow: hidden;
+}
+.widget_jsp_widget .description {
+    font-size: 1rem;
+    width: 75%;
+}
+.widget_jsp_widget .right .description {
+    float: left;
+}
+.widget_jsp_widget .right img {
+    float: right;
+}
+.widget_jsp_widget .left .description {
+    float: right;
+}
+.widget_jsp_widget .left img {
+    float: left;
+}
+.widget_jsp_widget .info.big .item {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+}
+.widget_jsp_widget .info.big .img-hold img {
+    display: block;
+    height: auto;
+}
+.widget_jsp_widget .info.big .img-hold img {
+    height: 100%;
+}
+.widget_jsp_widget .info.big figcaption {
+    background-color: rgba(0, 0, 0, 0.78);
+    bottom: 0;
+    color: #fff;
+    left: 0;
+    opacity: 0;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    transition: all 0.4s ease 0s;
+}
+.widget_jsp_widget .info.big h2 {
+    display: table;
+    font-size: 2rem;
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+.widget_jsp_widget .info.big h2 > b {
+    display: table-cell;
+    font-weight: 400;
+    vertical-align: middle;
+}
+.widget_jsp_widget .info.big .item:hover figcaption {
+    opacity: 1;
+    cursor: pointer;
+}

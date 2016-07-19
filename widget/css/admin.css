@@ -1,0 +1,14 @@
+.posts-replace {
+    width: 50%;
+    padding: 5px;
+}
+.posts-replace.border ul {
+    margin: 0;
+}
+.posts-replace.border {
+    border: 1px solid lightgray;
+}
+.posts-replace li:hover {
+    background: lightgray;
+    cursor: pointer;
+}
